@@ -170,7 +170,7 @@ private fun cursorToCallDetailsList(cursor: Cursor?): List<CallDetails> {
 }
 
 data class CallDetails(
-    val name: String,
+    val name: String?,
     val number: String,
     val type: CallType,
     val date: String,
